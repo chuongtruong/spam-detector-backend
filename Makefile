@@ -9,8 +9,8 @@ lint:
 test:
 	python -m pytest -vv --cov=app test_app.py
 
-build:
-	docker build -t quick-read-mvp:latest .
+build: ## build docker image and push to docker hub
+	docker buildx build --push --tag sophietruong92/quick-read-mvp:latest --platform=linux/arm64,linux/amd64 . 
 
 run:
 	docker run -p 8080:8080 quick-read-mvp
