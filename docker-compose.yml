@@ -1,11 +1,12 @@
 version: "3"
 services:
   flaskapp:
-    image: registry.hub.docker.com/sophietruong92/quick-read-mvp:1.3
+    # image: registry.hub.docker.com/sophietruong92/quick-read-mvp:1.3
+    image: registry.hub.docker.com/sophietruong92/spam-detector-api:latest
     ports:
       - "80:80"
     deploy:
       resources:
         limits:
           cpus: '1'
-          memory: 8192M  
+          memory: 4096M  

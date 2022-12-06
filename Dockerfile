@@ -1,5 +1,4 @@
 FROM python:3.8.8-slim-buster
-# FROM arm64v8/python:latest
 
 # Working Directory
 WORKDIR /app
