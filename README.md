@@ -14,7 +14,7 @@ git clone https://github.com/chuongtruong/spam-detector-backend/
 ```
 -- Go to the project directory
 ```
-cd spam-detector-backend/
+cd ./path-to-project-folder/spam-detector-backend/
 ``` 
 -- Make sure you have Python installed on your machine
 ```
