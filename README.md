@@ -34,3 +34,5 @@ export FLASK_ENV=development
 python app.py
 ```
 
+## Link to the Frontend
+[spam-detector](https://github.com/chuongtruong/spam-detector)
