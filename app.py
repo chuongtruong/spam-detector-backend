@@ -100,7 +100,7 @@ def index():
         inp_ids1 = preprocess(inp, tokenizer1)
         inp_ids2 = preprocess(inp, tokenizer2)
         print(inp_ids1, inp_ids2)
-        if inp_ids1.input_ids.nelement() == 0 or inp_ids2.input_ids.nelement() == 0:
+        if len(inp_ids1.input_ids) == 0 or len(inp_ids2.input_ids) == 0:
             # error case
             err_message = {
                 "Error":"Input Error: \
