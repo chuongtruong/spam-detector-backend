@@ -36,3 +36,8 @@ python app.py
 
 ## Link to the Frontend
 [spam-detector](https://github.com/chuongtruong/spam-detector)
+
+## Author
+
+-- Chuong Truong
+-- Chirag Kaudan
